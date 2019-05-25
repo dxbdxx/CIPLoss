@@ -1,0 +1,12 @@
+net: "co6_5.prototxt"
+
+base_lr: 0.01
+lr_policy: "multistep"
+stepvalue: 20000
+gamma: 0.2  
+
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 5000
+snapshot_prefix: "saved_models/modelnet40_co6_5"
+solver_mode: GPU
